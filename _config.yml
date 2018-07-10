@@ -8,10 +8,6 @@ kramdown:
 
 permalink:           pretty
 
-# paginate
-plugins: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
 
 # Setup
 title:               Hakan Kimeiga Alpay
