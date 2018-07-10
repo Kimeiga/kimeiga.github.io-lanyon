@@ -1,24 +1,36 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
+# Dependencies
+markdown:         kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
 permalink:           pretty
 
-# Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-# url:                 http://lanyon.getpoole.com
-# baseurl:             ''
-
-gems: [jekyll-paginate]
+# paginate
+plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
 
+# Setup
+title:               Hakan Kimeiga Alpay
+tagline:             'Game, Graphic, Web Developer'
+description:         '<a href="https://twitter.com/theHakanAlpay" target="_blank">Kimeiga</a> is a game, graphic, web, and language developer. He loves Insurgency, cute things, night photography, and making friends laugh. Memnum Oldum.'
+# url:                 http://lanyon.getpoole.com
+# baseurl:             ''
+
+
+
+# github
+github:
+  repo:           https://github.com/kimeiga/kimeiga.github.io
+
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Hakan Kimeiga Alpay
+  url:               https://twitter.com/theHakanAlpay
+  email:             hak7alp@gmail.com
 
 # Custom vars
 version:             1.0.0
